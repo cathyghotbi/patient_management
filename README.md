@@ -7,7 +7,7 @@ The program starts by loading patient data from a JSON file, then repeatedly dis
 Based on the user’s choice, it performs actions such as searching, filtering, grouping, or saving data.
 The loop continues until the user selects Exit.
 
-Features:
+## Features:
 
 Load patient data from JSON
 Display patient information
@@ -24,7 +24,7 @@ services handle logic,
 UI handles input/output, 
 and the main file controls the program flow.
 
-Architecture Overview:
+## Architecture Overview:
 
 The project follows Separation of Concerns:
 models/ → Data structures (Patient)
@@ -39,22 +39,14 @@ From the project root:
 python main.py
 
 
-example of how it works:
+### Example of how it works:
 
 <img width="609" height="412" alt="{C7627AFA-0FC5-4DD6-9867-FDC0526B29B8}" src="https://github.com/user-attachments/assets/19f6fc3a-83a8-4851-8ae6-ef09c9105a2d" />
 
 
 <img width="616" height="467" alt="{FE3090CD-A2E2-48F6-AA2F-3A6DAB66F88B}" src="https://github.com/user-attachments/assets/38d234a8-87ee-4410-96a6-dccc5df2f006" />
 
-
-There are also unit tests. In order to run the test, Python needs to know where the project root is, so:
-In PyCharm, right-click the patient_management folder
-Click “Mark Directory as”
-Click “Sources Root”
-
-<img width="736" height="435" alt="{7088E8A0-ECB4-440A-AABA-C9AD372C274D}" src="https://github.com/user-attachments/assets/ff670dcc-3e78-43f7-98dc-63f2776a9689" />
-
-Unit Testing:
+## Unit Testing:
 Unit tests verify individual functions and classes.
 Run all unit tests:
 python -m unittest discover
@@ -68,7 +60,16 @@ Filtering by age
 Grouping by disease
 Loading data from JSON
 
-Behavior-Driven Development (BDD) are used to to validate system behavior using Given–When–Then scenarios.
+In order to run the test, Python needs to know where the project root is, so:
+In PyCharm, right-click the patient_management folder
+Click “Mark Directory as”
+Click “Sources Root”
+
+<img width="736" height="435" alt="{7088E8A0-ECB4-440A-AABA-C9AD372C274D}" src="https://github.com/user-attachments/assets/ff670dcc-3e78-43f7-98dc-63f2776a9689" />
+
+
+## Behavior-Driven Development (BDD)
+BDD tests validate system behavior using Given–When–Then scenarios.
 In BDD tests, there are 2 folders:
 .feature files → human-readable behavior (Plain English - in gherkin)
 steps/*.py → Python code that executes behavior (Python logic)
@@ -92,7 +93,7 @@ If you would like to tag the tests and run only those, to have to set the config
 
 <img width="471" height="458" alt="{7BFE27D7-E3C0-4310-B8E7-E7422E82BEE7}" src="https://github.com/user-attachments/assets/3d0ce657-8655-4486-8441-6d186dbec425" />
 
-COVERAGE REPORTS (Unit + BDD):
+## Coverage Reports (Unit + BDD):
 in pycharm terminal:
 
 directory: C:\Users\Cathy\PycharmProjects\pythonProject1\patient_management>
