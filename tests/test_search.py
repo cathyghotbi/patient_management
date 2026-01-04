@@ -13,20 +13,24 @@ class TestSearchFunctions(unittest.TestCase):
         self.p1 = Patient("Alice Smith", date(2000, 1, 1), ["Asthma"])
         self.p2 = Patient("Bob Jones", date(1980, 6, 15), ["Diabetes"])
         self.patients = [self.p1, self.p2]
+        print("setUp completed")
 
     def test_search_by_name(self):
         result = search_by_name(self.patients, "alice")
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0].name, "Alice Smith")
+        print("test test_search_by_name")
 
     def test_search_by_disease(self):
         result = search_by_disease(self.patients, "Diabetes")
         self.assertEqual(result[0].name, "Bob Jones")
+        print("test test_search_by_disease ")
 
     def test_filter_by_min_age(self):
         result = filter_by_min_age(self.patients, 40)
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0].name, "Bob Jones")
+        print("test test_filter_by_min_age")
 
 if __name__ == "__main__":
     unittest.main()
