@@ -38,3 +38,13 @@ pycharm configuration to run behave test:
 result of the behave test run:
 
 <img width="694" height="479" alt="{9EB1DAAC-27A4-4FB9-A6C8-BCBCEABD5A61}" src="https://github.com/user-attachments/assets/f427e178-f1d2-442e-a0d3-69f739323492" />
+
+
+If you would like to tag the tests and run only those, to have to set the configuration to run only those 
+
+--tags=smoke -f pretty features
+
+<img width="360" height="148" alt="{1DFBE492-7805-46CF-A3F2-506309A0DE52}" src="https://github.com/user-attachments/assets/4c96f883-13b0-4b61-9d70-d53565d78449" />
+
+
+<img width="471" height="458" alt="{7BFE27D7-E3C0-4310-B8E7-E7422E82BEE7}" src="https://github.com/user-attachments/assets/3d0ce657-8655-4486-8441-6d186dbec425" />
