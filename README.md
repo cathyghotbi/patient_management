@@ -48,3 +48,28 @@ If you would like to tag the tests and run only those, to have to set the config
 
 
 <img width="471" height="458" alt="{7BFE27D7-E3C0-4310-B8E7-E7422E82BEE7}" src="https://github.com/user-attachments/assets/3d0ce657-8655-4486-8441-6d186dbec425" />
+
+COVERAGE REPORTS (Unit + BDD):
+in pycharm terminal:
+
+directory: C:\Users\Cathy\PycharmProjects\pythonProject1\patient_management>
+
+pip install coverage
+
+coverage run -m unittest discover
+coverage report
+
+<img width="336" height="241" alt="{8F544803-27E6-4663-979A-7FA78C1758C5}" src="https://github.com/user-attachments/assets/ab54f05c-55e1-4ab1-9dae-596a4d2d6b41" />
+
+
+coverage run -m behave
+coverage report
+
+
+
+coverage html
+
+htmlcov/index.html
+
+<img width="506" height="385" alt="{1B5D2793-165E-4BA3-AC16-7E49045E7D57}" src="https://github.com/user-attachments/assets/8f3af6bd-d0fe-487c-bd8d-bcd47f4e7e2b" />
+
