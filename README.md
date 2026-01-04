@@ -30,6 +30,7 @@ For the Behavior-Driven Development (BDD) tests, there are 2 folders:
 steps/*.py → Python code that executes behavior (Python logic)
 
 pycharm configuration to run behave test:
+
 <img width="326" height="162" alt="{DAC0479A-1F17-4517-B466-933879FD7D27}" src="https://github.com/user-attachments/assets/5bf22fc9-bfc8-4120-a001-3badce77b243" />
 
 
