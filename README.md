@@ -1,12 +1,42 @@
+# Project description:
+A Python-based Patient Management System demonstrating clean architecture, unit testing, Behavior-Driven Development (BDD), test coverage, and Continuous Integration (CI).
+
+This project is designed to be educational.
+
 The program starts by loading patient data from a JSON file, then repeatedly displays a menu.
 Based on the user’s choice, it performs actions such as searching, filtering, grouping, or saving data.
 The loop continues until the user selects Exit.
+
+Features:
+
+Load patient data from JSON
+Display patient information
+Search patients by name
+Search patients by disease
+Filter patients by minimum age
+Group patients by disease
+Save grouped data to JSON and CSV
+Menu-driven command-line interface
 
 The project is organized into folders based on responsibility: 
 models store data structures, 
 services handle logic, 
 UI handles input/output, 
 and the main file controls the program flow.
+
+Architecture Overview:
+
+The project follows Separation of Concerns:
+models/ → Data structures (Patient)
+services/ → Business logic (searching, grouping, saving)
+ui/ → User interaction and display
+tests/ → Unit tests
+features/ → BDD tests (user behavior)
+main.py → Application controller
+
+Running the Application:
+From the project root:
+python main.py
 
 
 example of how it works:
@@ -24,6 +54,19 @@ Click “Sources Root”
 
 <img width="736" height="435" alt="{7088E8A0-ECB4-440A-AABA-C9AD372C274D}" src="https://github.com/user-attachments/assets/ff670dcc-3e78-43f7-98dc-63f2776a9689" />
 
+Unit Testing:
+Unit tests verify individual functions and classes.
+Run all unit tests:
+python -m unittest discover
+
+What is tested:
+Patient age calculation
+Patient dictionary conversion
+Searching by name
+Searching by disease
+Filtering by age
+Grouping by disease
+Loading data from JSON
 
 Behavior-Driven Development (BDD) are used to to validate system behavior using Given–When–Then scenarios.
 In BDD tests, there are 2 folders:
