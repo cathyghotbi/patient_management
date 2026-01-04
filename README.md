@@ -35,4 +35,5 @@ pycharm configuration to run behave test:
 
 
 result of the behave test run:
+
 <img width="694" height="479" alt="{9EB1DAAC-27A4-4FB9-A6C8-BCBCEABD5A61}" src="https://github.com/user-attachments/assets/f427e178-f1d2-442e-a0d3-69f739323492" />
