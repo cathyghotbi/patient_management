@@ -25,14 +25,13 @@ UI handles input/output,
 and the main file controls the program flow.
 
 ## Architecture Overview:
-
 The project follows Separation of Concerns:
-models/ → Data structures (Patient)
-services/ → Business logic (searching, grouping, saving)
-ui/ → User interaction and display
-tests/ → Unit tests
-features/ → BDD tests (user behavior)
-main.py → Application controller
+* models/ → Data structures (Patient)
+* services/ → Business logic (searching, grouping, saving)
+* ui/ → User interaction and display
+* tests/ → Unit tests
+* features/ → BDD tests (user behavior)
+* main.py → Application controller
 
 Running the Application:
 From the project root:
@@ -52,13 +51,13 @@ Run all unit tests:
 python -m unittest discover
 
 What is tested:
-Patient age calculation
-Patient dictionary conversion
-Searching by name
-Searching by disease
-Filtering by age
-Grouping by disease
-Loading data from JSON
+* Patient age calculation
+* Patient dictionary conversion
+* Searching by name
+* Searching by disease
+* Filtering by age
+* Grouping by disease
+* Loading data from JSON
 
 In order to run the test, Python needs to know where the project root is, so:
 In PyCharm, right-click the patient_management folder
