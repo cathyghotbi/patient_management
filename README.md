@@ -9,14 +9,14 @@ The loop continues until the user selects Exit.
 
 ## Features:
 
-Load patient data from JSON
-Display patient information
-Search patients by name
-Search patients by disease
-Filter patients by minimum age
-Group patients by disease
-Save grouped data to JSON and CSV
-Menu-driven command-line interface
+* Load patient data from JSON
+* Display patient information
+* Search patients by name
+* Search patients by disease
+* Filter patients by minimum age
+* Group patients by disease
+* Save grouped data to JSON and CSV
+* Menu-driven command-line interface
 
 The project is organized into folders based on responsibility: 
 models store data structures, 
