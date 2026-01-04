@@ -25,7 +25,8 @@ Click “Sources Root”
 <img width="736" height="435" alt="{7088E8A0-ECB4-440A-AABA-C9AD372C274D}" src="https://github.com/user-attachments/assets/ff670dcc-3e78-43f7-98dc-63f2776a9689" />
 
 
-For the Behavior-Driven Development (BDD) tests, there are 2 folders:
+Behavior-Driven Development (BDD) are used to to validate system behavior using Given–When–Then scenarios.
+In BDD tests, there are 2 folders:
 .feature files → human-readable behavior (Plain English - in gherkin)
 steps/*.py → Python code that executes behavior (Python logic)
 
